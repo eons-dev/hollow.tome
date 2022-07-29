@@ -1,0 +1,24 @@
+{
+  "name" : "hollow",
+  "type" : "tome",
+  "build_in" : "github",
+  "clear_build_path" : true,
+  "next": [
+    {
+      "build" : "publish",
+      "build_in" : "tome_hollow",
+      "run_when" : [
+        "release"
+      ],
+      "copy" : [
+        {"../../bin/" : "bin/"},
+        {"../../inc/" : "inc/"},
+        {"../../lib/" : "lib"}
+      ],
+      "config" : {
+        "clear_build_path" : false,
+        "visibility" : "public"
+      }
+    }
+  ]
+}
