@@ -1,0 +1,3 @@
+[submodule ".github"]
+	path = .github
+	url = https://github.com/eons-dev/part_ebbs-workflows.git
