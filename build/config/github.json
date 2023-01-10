@@ -5,7 +5,7 @@
     {
       "build" : "publish",
       "build_in" : "tome_hollow",
-      "run_when" : [
+      "run_when_any" : [
         "release"
       ],
       "copy" : [
