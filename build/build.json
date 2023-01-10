@@ -1,6 +1,6 @@
 {
-  "name" : "install",
-  "type" : "merx",
+  "name" : "hollow",
+  "type" : "tome",
   "clear_build_path" : true,
   "build_in" : "tmp",
   "next": [

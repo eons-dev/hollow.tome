@@ -1,6 +1,4 @@
 {
-  "name" : "hollow",
-  "type" : "tome",
   "build_in" : "github",
   "clear_build_path" : true,
   "next": [
@@ -11,9 +9,9 @@
         "release"
       ],
       "copy" : [
-        {"../../bin/" : "bin/"},
-        {"../../inc/" : "inc/"},
-        {"../../lib/" : "lib"}
+        {"/exe/" : "exe/"},
+        {"/inc/" : "inc/"},
+        {"/lib/" : "lib"}
       ],
       "config" : {
         "clear_build_path" : false,
