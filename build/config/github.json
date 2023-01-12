@@ -9,9 +9,9 @@
         "release"
       ],
       "copy" : [
-        {"/exe/" : "exe/"},
-        {"/inc/" : "inc/"},
-        {"/lib/" : "lib"}
+        {"../../../exe" : "tome_hollow/exe"},
+        {"../../../inc" : "tome_hollow/inc"},
+        {"../../../lib" : "tome_hollow/lib"}
       ],
       "config" : {
         "clear_build_path" : false,
